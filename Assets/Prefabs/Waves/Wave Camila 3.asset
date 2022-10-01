@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae5fd8f1e9c30c4a90d41e9e1531e64, type: 3}
+  m_Name: Wave Camila 3
+  m_EditorClassIdentifier: 
+  EnemyPrefab:
+  - {fileID: 6079527392488100443, guid: 16868bb463b5dd24e880a38027e1bcc2, type: 3}
+  PathPrefab: {fileID: 4943223873031562202, guid: 067a5009a6f413344af4d0faf70998ce,
+    type: 3}
+  TimeBetweenSpawns: 0.6
+  SpawnRandomFactor: 0.3
+  NumberOfEnemies: 8
+  MoveSpeed: 10
+  EnemyBulletSpeed: 3
+  WaveOffsetXMax: 0
+  waveOffsetX: -3
+  waveOffsetY: 0

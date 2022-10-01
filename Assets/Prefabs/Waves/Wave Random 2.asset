@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae5fd8f1e9c30c4a90d41e9e1531e64, type: 3}
+  m_Name: Wave Random 2
+  m_EditorClassIdentifier: 
+  EnemyPrefab:
+  - {fileID: 8670244982148247926, guid: d3925c1ffc76be941831b3b7e1cc0905, type: 3}
+  - {fileID: 2630430878362330569, guid: 61f21909644475a4db1e7b1b92640300, type: 3}
+  - {fileID: 6079527392488100443, guid: 16868bb463b5dd24e880a38027e1bcc2, type: 3}
+  - {fileID: 6079527392488100443, guid: 9bd65df5bd8cf0d40b1fe85216c805ae, type: 3}
+  - {fileID: 2630430878362330569, guid: 4009ac8cf7f052c499313adabfd664eb, type: 3}
+  - {fileID: 2630430878362330569, guid: c7a4a7da5b9b7614f9a826ff9dcbd96f, type: 3}
+  RandomizeEnemies: 1
+  PathPrefab: {fileID: 4943223873031562202, guid: b506f2ff02a0c434fbb3747ae9606dd6,
+    type: 3}
+  TimeBetweenSpawns: 0.6
+  SpawnRandomFactor: 0.3
+  NumberOfEnemies: 5
+  MoveSpeed: 8
+  EnemyBulletSpeed: 3
+  WaveOffsetXMax: 2
+  waveOffsetX: 0
+  waveOffsetY: 0

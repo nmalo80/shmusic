@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aae5fd8f1e9c30c4a90d41e9e1531e64, type: 3}
+  m_Name: Wave Kan 1
+  m_EditorClassIdentifier: 
+  EnemyPrefab:
+  - {fileID: 2630430878362330569, guid: 4009ac8cf7f052c499313adabfd664eb, type: 3}
+  PathPrefab: {fileID: 4943223873031562202, guid: 5dd465aabbaa66e4293cdb29e40f91f1,
+    type: 3}
+  TimeBetweenSpawns: 0.2
+  SpawnRandomFactor: 0.3
+  NumberOfEnemies: 8
+  MoveSpeed: 3
+  EnemyBulletSpeed: 0
+  WaveOffetXMax: 2
+  waveOffsetY: 0
